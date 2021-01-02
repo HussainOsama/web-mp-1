@@ -1,0 +1,29 @@
+.nav{
+    height: 100px;
+    background-color: blue;
+    display: flex;
+    justify-content: space-around;
+
+    
+}
+
+.menu{
+    display: flex;
+}
+
+.card1{
+    width: 200px;
+    height: 100vh;
+    background-color: brown;
+}
+
+.card2{
+    width:100vw;
+    height: 100vh;
+    background-color: red;
+}
+
+.profileImg{
+    width: 100px;
+    border-radius: 50%;
+}
