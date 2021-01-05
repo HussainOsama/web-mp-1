@@ -26,23 +26,22 @@
 
 .body{
     display: flex;
+    height: 1500px;
 }
 
 .sidebar{
     width: 336px;
-    height: 100vh;
     background-color: #deb522;
     box-shadow: -5px -10px 30px rgb(136, 136, 136) inset;
     display: flex;
     flex-direction: column;
-    justify-content:space-around ;
+    justify-content: flex-start ;
     align-items:center;
     text-align: center;
 }
 
 .content{
     width:100vw;
-    height: 100vh;
     background-color: #faf1de ;
     box-shadow: 5px -10px 30px rgb(136, 136, 136) inset;
     display: flex;
@@ -56,7 +55,7 @@
 
 .content-title{
     font-family: 'Roboto', sans-serif;
-    margin-left: 40px;
+    margin-left: 20px;
     margin-top: 20px;
 
 }
