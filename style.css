@@ -46,8 +46,19 @@
     background-color: #faf1de ;
     box-shadow: 5px -10px 30px rgb(136, 136, 136) inset;
     display: flex;
+    flex-direction: column;
+}
+
+.content-movie{
+    display: flex;
     justify-content: space-around;
-    flex-wrap: wrap;
+}
+
+.content-title{
+    font-family: 'Roboto', sans-serif;
+    margin-left: 40px;
+    margin-top: 20px;
+
 }
 
 .profileImg{
